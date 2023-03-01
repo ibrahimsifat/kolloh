@@ -1,0 +1,78 @@
+{
+  "key": "plugin_strapi-google-translator_contentType",
+  "value": [
+    {
+      "id": 1,
+      "name": "city",
+      "collectionName": "cities",
+      "attribute": [
+        {
+          "id": 2646,
+          "name": "slug",
+          "type": "uid",
+          "relationSlug": "",
+          "component": "",
+          "translationSchema": "uid"
+        },
+        {
+          "id": 6946,
+          "name": "name",
+          "type": "string",
+          "relationSlug": "",
+          "component": "",
+          "translationSchema": "string"
+        },
+        {
+          "id": 4202,
+          "name": "state",
+          "type": "relation",
+          "relationSlug": "api::state.state",
+          "component": "",
+          "translationSchema": "skip"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "state",
+      "collectionName": "states",
+      "attribute": [
+        {
+          "id": 9342,
+          "name": "name",
+          "type": "string",
+          "relationSlug": "",
+          "component": "",
+          "translationSchema": "string"
+        },
+        {
+          "id": 2143,
+          "name": "slug",
+          "type": "uid",
+          "relationSlug": "",
+          "component": "",
+          "translationSchema": "uid"
+        },
+        {
+          "id": 2828,
+          "name": "country",
+          "type": "string",
+          "relationSlug": "",
+          "component": "",
+          "translationSchema": "string"
+        },
+        {
+          "id": 8179,
+          "name": "cities",
+          "type": "relation",
+          "relationSlug": "api::city.city",
+          "component": "",
+          "translationSchema": "skip"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "environment": "development",
+  "tag": null
+}
