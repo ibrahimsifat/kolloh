@@ -29,7 +29,7 @@ module.exports = [
         useDefaults: true,
         directives: {
           "script-src": ["'self'", "*.tinymce.com", "*.tiny.cloud", "https:"],
-          "connect-src": ["'self'", "*.tinymce.com", "*.tiny.cloud", "blob:"],
+          "connect-src": ["'self'", "https:"],
           "img-src": [
             "'self'",
             "*.tinymce.com",

@@ -21,7 +21,7 @@ module.exports = ({ env }) => ({
       ],
     },
   },
-  // this is the plugin that translate data
+
   //   localazy: {
   //     enabled: true,
   //     resolve: "./src/plugins/localazy",
@@ -30,12 +30,6 @@ module.exports = ({ env }) => ({
   //       validator: () => {},
   //     },
   //   },
-  // this is the plugin that generates the menu
-  menus: {
-    config: {
-      maxDepth: 3,
-    },
-  },
 
   // this is the plugin that make seo friendly content
   seo: {
@@ -123,4 +117,13 @@ module.exports = ({ env }) => ({
       },
     },
   },
+
+  // "google-auth": {
+  //   enabled: true,
+  // },
+
+  // // this plugin is for bulk import and export data
+  // "import-export-entries": {
+  //   enabled: true,
+  // },
 });
