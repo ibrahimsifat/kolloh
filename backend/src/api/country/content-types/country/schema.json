@@ -7,7 +7,7 @@
     "displayName": "country"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -24,12 +24,7 @@
       "type": "string"
     },
     "flag_image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
+      "allowedTypes": ["images", "files", "videos", "audios"],
       "type": "media",
       "multiple": true,
       "pluginOptions": {
