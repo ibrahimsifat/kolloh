@@ -42,7 +42,7 @@ const Navbar = () => {
               {/* Profile dropdown */}
               <div className="hidden sm:block">
                 <Button size="md" bg="secondary">
-                  Create add
+                  Create ad
                 </Button>
               </div>
               <button

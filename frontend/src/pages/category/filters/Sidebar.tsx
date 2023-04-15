@@ -19,7 +19,8 @@ import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import CategoryListCard from "../../../components/Molecules/categoryList/CategoryListCard";
 import ColorsFilter from "./ColorsFIlter";
-import FilterProducts from "./FilterProducts";
+import PriceFilter from "./PriceFilter";
+import TopFilterBar from "./TopFilterBar";
 
 type Theme = "light" | "dark";
 
@@ -133,6 +134,16 @@ export const Playground = () => {
               >
                 <ColorsFilter />
               </SubMenu>
+              <SubMenu
+                style={FilterListStyle}
+                open={isMenuOpen2}
+                label="Filters"
+                icon={collapsed && <BiBook />}
+                onClick={() => setIsMenuOpen2(!isMenuOpen2)}
+                // suffix={Categories.length || 0}
+              >
+                <PriceFilter />
+              </SubMenu>
             </Menu>
 
             <Menu menuItemStyles={menuItemStyles}>
@@ -146,7 +157,7 @@ export const Playground = () => {
 
       <main>
         <div className="ltr:ml-7 rtl:mr-7 text-[#44596e]">
-          <div className="mb-5">
+          <div className="">
             {broken && (
               <button
                 // onClick={closeCategoryDrawer}
@@ -159,7 +170,7 @@ export const Playground = () => {
             )}
           </div>
           <div className="mb-14">
-            <FilterProducts />
+            <TopFilterBar />
           </div>
         </div>
       </main>
