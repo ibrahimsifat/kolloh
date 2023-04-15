@@ -43,7 +43,12 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"],
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -54,7 +59,12 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"],
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -75,12 +85,6 @@
       "target": "api::item.item",
       "mappedBy": "subcategory"
     },
-    "attributes": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::attribute.attribute",
-      "mappedBy": "subcategory"
-    },
     "is_brand": {
       "pluginOptions": {
         "i18n": {
@@ -89,6 +93,12 @@
       },
       "type": "boolean",
       "default": false
+    },
+    "attributes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::attribute.attribute",
+      "mappedBy": "subcategories"
     }
   }
 }

@@ -2,60 +2,57 @@ import React, { useState } from "react";
 import {
   Menu,
   MenuItem,
-  MenuItemStyles,
   Sidebar,
   SubMenu,
-  menuClasses,
   useProSidebar,
 } from "react-pro-sidebar";
 
-import SidebarHeader from "./SidebarHeader";
-
 import Typography from "@/components/atoms/Text/Typography";
+import { getCategories } from "@/network/categories";
+import categories from "@/utils/data.json";
+import {
+  FilterListStyle,
+  menuItemStyles,
+  sideBarThemes,
+} from "@/utils/filterStyles";
 import { BiBook } from "react-icons/bi";
+import { FaBars } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
+import CategoryListCard from "../../../components/Molecules/categoryList/CategoryListCard";
+import ColorsFilter from "./ColorsFIlter";
 
 type Theme = "light" | "dark";
 
-const themes = {
-  light: {
-    sidebar: {
-      backgroundColor: "#ffffff",
-      color: "#607489",
-    },
-    menu: {
-      menuContent: "#fbfcfd",
-      icon: "#0098e5",
-      hover: {
-        backgroundColor: "#c5e4ff",
-        color: "#44596e",
-      },
-      disabled: {
-        color: "#9fb6cf",
-      },
-    },
-  },
-  dark: {
-    sidebar: {
-      backgroundColor: "#0b2948",
-      color: "#8ba1b7",
-    },
-    menu: {
-      menuContent: "#082440",
-      icon: "#59d0ff",
-      hover: {
-        backgroundColor: "#00458b",
-        color: "#b6c8d9",
-      },
-      disabled: {
-        color: "#3e5e7e",
-      },
-    },
-  },
-};
-
-export const Playground: React.FC = () => {
+interface CategoryProps {
+  data: {
+    id: number;
+    attributes: {
+      name: string;
+      slug: null;
+      prioty: null;
+      featured: boolean;
+      createdAt: string;
+      updatedAt: string;
+      locale: string;
+      image: {
+        data: null;
+      };
+      cover_image: {
+        data: null;
+      };
+      subcategories: {};
+      attribute_categories: {};
+      localizations: {};
+    };
+  }[];
+}
+export interface CategoriesProps {
+  categories: CategoryProps[];
+}
+export const Playground = () => {
   const { toggleSidebar, collapseSidebar, broken, collapsed } = useProSidebar();
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(true);
+  const [isMenuOpen2, setIsMenuOpen2] = useState<boolean>(true);
   const [isRTL, setIsRTL] = useState<boolean>(false);
   const [theme, setTheme] = useState<Theme>("light");
 
@@ -69,25 +66,7 @@ export const Playground: React.FC = () => {
     setTheme(e.target.checked ? "dark" : "light");
   };
 
-  const menuItemStyles: MenuItemStyles = {
-    root: {
-      fontSize: "13px",
-      fontWeight: 400,
-    },
-    icon: {
-      color: themes[theme].menu.icon,
-      [`&.${menuClasses.disabled}`]: {
-        color: themes[theme].menu.disabled.color,
-      },
-    },
-    SubMenuExpandIcon: {
-      color: "#b6b7b9",
-    },
-
-    label: ({ open }) => ({
-      fontWeight: open ? 600 : undefined,
-    }),
-  };
+  const Categories = categories.data;
 
   return (
     <div
@@ -99,35 +78,60 @@ export const Playground: React.FC = () => {
     >
       <Sidebar
         rtl={isRTL}
-        breakPoint="lg"
+        breakPoint="sm"
         rootStyles={{
-          color: themes[theme].sidebar.color,
+          color: sideBarThemes[theme].sidebar.color,
         }}
       >
-        <div className="flex flex-col h-full">
-          <SidebarHeader className="mb-8 mt-5" />
+        <div className="flex flex-col w-full h-full bg-white cursor-pointer ">
+          <div className="w-full flex justify-end items-end h-16 px-6 py-4 bg-emerald-500 text-white border-b border-gray-100">
+            {/* <h2
+              className="font-semibold font-serif text-lg m-0 text-heading flex align-center"
+              // onClick={() => toggleSidebar()}
+            >
+              <FaBars />
+            </h2> */}
+            <button
+              // onClick={closeCategoryDrawer}
+              className="flex text-xl items-center justify-center w-8 h-8 rounded-full bg-gray-50 text-red-500 p-2 focus:outline-none transition-opacity hover:text-red-600"
+              aria-label="close"
+              onClick={() => collapseSidebar()}
+            >
+              {collapsed ? <FaBars /> : <IoClose />}
+            </button>
+          </div>
           <div className="flex-1 mb-10">
-            <div className="px-8 mb-3">
-              <Typography
-                variant="body2"
-                fontWeight={600}
-                style={{ opacity: collapsed ? 0 : 0.7, letterSpacing: "0.5px" }}
-              >
-                General
-              </Typography>
-            </div>
             <Menu menuItemStyles={menuItemStyles} style={{ fontSize: "20px" }}>
               <SubMenu
-                style={{ fontSize: "20px" }}
+                style={FilterListStyle}
                 open={isMenuOpen}
-                label="Charts"
-                icon={<BiBook />}
+                label="Categories"
+                icon={collapsed && <BiBook />}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                suffix={6}
+                suffix={Categories.length || 0}
               >
-                <MenuItem> Pie charts</MenuItem>
-                <MenuItem> Line charts</MenuItem>
-                <MenuItem> Bar charts</MenuItem>
+                {Categories.length > 0 ? (
+                  Categories.map((category) => (
+                    <CategoryListCard
+                      key={category.id}
+                      title={category.attributes.name}
+                      // icon={category.icon}
+                      nested={category.attributes.subcategories.data}
+                    />
+                  ))
+                ) : (
+                  <p>There is no category</p>
+                )}
+              </SubMenu>
+              <SubMenu
+                style={FilterListStyle}
+                open={isMenuOpen2}
+                label="Filters"
+                icon={collapsed && <BiBook />}
+                onClick={() => setIsMenuOpen2(!isMenuOpen2)}
+                // suffix={Categories.length || 0}
+              >
+                <ColorsFilter />
               </SubMenu>
             </Menu>
 
@@ -144,8 +148,13 @@ export const Playground: React.FC = () => {
         <div className="py-5 px-7 text-[#44596e]">
           <div className="mb-5">
             {broken && (
-              <button className="sb-button" onClick={() => toggleSidebar()}>
-                Toggle
+              <button
+                // onClick={closeCategoryDrawer}
+                className="flex text-xl items-center justify-center w-8 h-8 rounded-full bg-gray-50 text-red-500 p-2 focus:outline-none transition-opacity hover:text-red-600"
+                aria-label="close"
+                onClick={() => toggleSidebar()}
+              >
+                <FaBars />
               </button>
             )}
           </div>
@@ -163,3 +172,19 @@ export const Playground: React.FC = () => {
     </div>
   );
 };
+
+export async function getServerSideProps() {
+  const categories = await getCategories();
+
+  if (!categories) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      categories,
+    },
+  };
+}

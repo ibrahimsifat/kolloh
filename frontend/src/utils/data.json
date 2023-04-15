@@ -1,0 +1,1344 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "name": "Books",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.088Z",
+        "updatedAt": "2023-04-06T10:03:26.088Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 101,
+              "attributes": {
+                "name": "Fiction",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.628Z",
+                "updatedAt": "2023-04-06T10:04:16.628Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 102,
+              "attributes": {
+                "name": "Non-fiction",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.652Z",
+                "updatedAt": "2023-04-06T10:04:16.652Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 103,
+              "attributes": {
+                "name": "Mystery",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.663Z",
+                "updatedAt": "2023-04-06T10:04:16.663Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 104,
+              "attributes": {
+                "name": "Romance",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.674Z",
+                "updatedAt": "2023-04-06T10:04:16.674Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 105,
+              "attributes": {
+                "name": "Science fiction & fantasy",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.683Z",
+                "updatedAt": "2023-04-06T10:04:16.683Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 106,
+              "attributes": {
+                "name": "Young adult",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.692Z",
+                "updatedAt": "2023-04-06T10:04:16.692Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "name": "Electronics",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.104Z",
+        "updatedAt": "2023-04-06T10:03:26.104Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 201,
+              "attributes": {
+                "name": "Computers & Accessories",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.701Z",
+                "updatedAt": "2023-04-06T10:04:16.701Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 202,
+              "attributes": {
+                "name": "Televisions & Video",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.709Z",
+                "updatedAt": "2023-04-06T10:04:16.709Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 203,
+              "attributes": {
+                "name": "Headphones",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.718Z",
+                "updatedAt": "2023-04-06T10:04:16.718Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 204,
+              "attributes": {
+                "name": "Cameras & Photography",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.733Z",
+                "updatedAt": "2023-04-06T10:04:16.733Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 205,
+              "attributes": {
+                "name": "Mobile Phones & Accessories",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.744Z",
+                "updatedAt": "2023-04-06T10:04:16.744Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "name": "Clothing",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.113Z",
+        "updatedAt": "2023-04-06T10:03:26.113Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 301,
+              "attributes": {
+                "name": "Men's Clothing",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.756Z",
+                "updatedAt": "2023-04-06T10:04:16.756Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 302,
+              "attributes": {
+                "name": "Women's Clothing",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.767Z",
+                "updatedAt": "2023-04-06T10:04:16.767Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 303,
+              "attributes": {
+                "name": "Kids & Baby Clothing",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.776Z",
+                "updatedAt": "2023-04-06T10:04:16.776Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 304,
+              "attributes": {
+                "name": "Shoes",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.786Z",
+                "updatedAt": "2023-04-06T10:04:16.786Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 305,
+              "attributes": {
+                "name": "Accessories",
+                "slug": "accessories",
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.796Z",
+                "updatedAt": "2023-04-12T22:06:47.373Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "name": "Home & Kitchen",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.121Z",
+        "updatedAt": "2023-04-06T10:03:26.121Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 401,
+              "attributes": {
+                "name": "Kitchen & Dining",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.805Z",
+                "updatedAt": "2023-04-06T10:04:16.805Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 402,
+              "attributes": {
+                "name": "Furniture",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.814Z",
+                "updatedAt": "2023-04-06T10:04:16.814Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 403,
+              "attributes": {
+                "name": "Home Decor",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.823Z",
+                "updatedAt": "2023-04-06T10:04:16.823Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 404,
+              "attributes": {
+                "name": "Bedding & Bath",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.832Z",
+                "updatedAt": "2023-04-06T10:04:16.832Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 405,
+              "attributes": {
+                "name": "Appliances",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.841Z",
+                "updatedAt": "2023-04-06T10:04:16.841Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "name": "Sports & Outdoors",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.128Z",
+        "updatedAt": "2023-04-06T10:03:26.128Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 501,
+              "attributes": {
+                "name": "Exercise & Fitness",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.850Z",
+                "updatedAt": "2023-04-06T10:04:16.850Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 502,
+              "attributes": {
+                "name": "Outdoor Recreation",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.861Z",
+                "updatedAt": "2023-04-06T10:04:16.861Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 503,
+              "attributes": {
+                "name": "Cycling",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.871Z",
+                "updatedAt": "2023-04-06T10:04:16.871Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 504,
+              "attributes": {
+                "name": "Hunting & Fishing",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.879Z",
+                "updatedAt": "2023-04-06T10:04:16.879Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 505,
+              "attributes": {
+                "name": "Team Sports",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.891Z",
+                "updatedAt": "2023-04-06T10:04:16.891Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "name": "Toys & Games",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.135Z",
+        "updatedAt": "2023-04-06T10:03:26.135Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 601,
+              "attributes": {
+                "name": "Action Figures & Dolls",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.900Z",
+                "updatedAt": "2023-04-06T10:04:16.900Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 602,
+              "attributes": {
+                "name": "Board Games & Puzzles",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.908Z",
+                "updatedAt": "2023-04-06T10:04:16.908Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 603,
+              "attributes": {
+                "name": "Building Sets & Blocks",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.920Z",
+                "updatedAt": "2023-04-06T10:04:16.920Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 604,
+              "attributes": {
+                "name": "Role-Playing & Fantasy Games",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.930Z",
+                "updatedAt": "2023-04-06T10:04:16.930Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 605,
+              "attributes": {
+                "name": "Electronic Games",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.939Z",
+                "updatedAt": "2023-04-06T10:04:16.939Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "name": "Beauty & Personal Care",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.142Z",
+        "updatedAt": "2023-04-06T10:03:26.142Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 701,
+              "attributes": {
+                "name": "Makeup & Cosmetics",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.947Z",
+                "updatedAt": "2023-04-06T10:04:16.947Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 702,
+              "attributes": {
+                "name": "Skin Care",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.955Z",
+                "updatedAt": "2023-04-06T10:04:16.955Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 703,
+              "attributes": {
+                "name": "Hair Care",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.963Z",
+                "updatedAt": "2023-04-06T10:04:16.963Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 704,
+              "attributes": {
+                "name": "Personal Care Appliances",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.973Z",
+                "updatedAt": "2023-04-06T10:04:16.973Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 705,
+              "attributes": {
+                "name": "Fragrances",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.983Z",
+                "updatedAt": "2023-04-06T10:04:16.983Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "name": "Grocery & Gourmet Food",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.148Z",
+        "updatedAt": "2023-04-06T10:03:26.148Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 801,
+              "attributes": {
+                "name": "Snacks & Candy",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:16.991Z",
+                "updatedAt": "2023-04-06T10:04:16.991Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 802,
+              "attributes": {
+                "name": "Beverages",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.003Z",
+                "updatedAt": "2023-04-06T10:04:17.003Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 803,
+              "attributes": {
+                "name": "Pantry Staples",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.014Z",
+                "updatedAt": "2023-04-06T10:04:17.014Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 804,
+              "attributes": {
+                "name": "Gourmet Food",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.025Z",
+                "updatedAt": "2023-04-06T10:04:17.025Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 805,
+              "attributes": {
+                "name": "Baby Food & Formula",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.035Z",
+                "updatedAt": "2023-04-06T10:04:17.035Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "name": "Music",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.156Z",
+        "updatedAt": "2023-04-06T10:03:26.156Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 901,
+              "attributes": {
+                "name": "Rock",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.043Z",
+                "updatedAt": "2023-04-06T10:04:17.043Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 902,
+              "attributes": {
+                "name": "Pop",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.051Z",
+                "updatedAt": "2023-04-06T10:04:17.051Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 903,
+              "attributes": {
+                "name": "Hip Hop",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.059Z",
+                "updatedAt": "2023-04-06T10:04:17.059Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 904,
+              "attributes": {
+                "name": "Country",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.068Z",
+                "updatedAt": "2023-04-06T10:04:17.068Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 905,
+              "attributes": {
+                "name": "Classical",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.077Z",
+                "updatedAt": "2023-04-06T10:04:17.077Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "name": "Movies & TV Shows",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.163Z",
+        "updatedAt": "2023-04-06T10:03:26.163Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 1001,
+              "attributes": {
+                "name": "Action & Adventure",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.085Z",
+                "updatedAt": "2023-04-06T10:04:17.085Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1002,
+              "attributes": {
+                "name": "Drama",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.096Z",
+                "updatedAt": "2023-04-06T10:04:17.096Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1003,
+              "attributes": {
+                "name": "Comedy",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.108Z",
+                "updatedAt": "2023-04-06T10:04:17.108Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1004,
+              "attributes": {
+                "name": "Documentary",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.117Z",
+                "updatedAt": "2023-04-06T10:04:17.117Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1005,
+              "attributes": {
+                "name": "Kids & Family",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.125Z",
+                "updatedAt": "2023-04-06T10:04:17.125Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "name": "Health & Wellness",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.170Z",
+        "updatedAt": "2023-04-06T10:03:26.170Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 1101,
+              "attributes": {
+                "name": "Supplements & Vitamins",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.133Z",
+                "updatedAt": "2023-04-06T10:04:17.133Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1102,
+              "attributes": {
+                "name": "Personal Care Products",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.144Z",
+                "updatedAt": "2023-04-06T10:04:17.144Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1103,
+              "attributes": {
+                "name": "Yoga & Meditation",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.153Z",
+                "updatedAt": "2023-04-06T10:04:17.153Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1104,
+              "attributes": {
+                "name": "Exercise Equipment",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.160Z",
+                "updatedAt": "2023-04-06T10:04:17.160Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1105,
+              "attributes": {
+                "name": "Health Monitors",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.168Z",
+                "updatedAt": "2023-04-06T10:04:17.168Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "name": "Office & School Supplies",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.178Z",
+        "updatedAt": "2023-04-06T10:03:26.178Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 1201,
+              "attributes": {
+                "name": "Paper Products",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.175Z",
+                "updatedAt": "2023-04-06T10:04:17.175Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1202,
+              "attributes": {
+                "name": "Writing & Correction",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.183Z",
+                "updatedAt": "2023-04-06T10:04:17.183Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1203,
+              "attributes": {
+                "name": "Desk Accessories",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.192Z",
+                "updatedAt": "2023-04-06T10:04:17.192Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1204,
+              "attributes": {
+                "name": "Filing & Organization",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.202Z",
+                "updatedAt": "2023-04-06T10:04:17.202Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1205,
+              "attributes": {
+                "name": "Binders & Binding Supplies",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.210Z",
+                "updatedAt": "2023-04-06T10:04:17.210Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "name": "Pets",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.186Z",
+        "updatedAt": "2023-04-06T10:03:26.186Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 1301,
+              "attributes": {
+                "name": "Dogs",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.218Z",
+                "updatedAt": "2023-04-06T10:04:17.218Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1302,
+              "attributes": {
+                "name": "Cats",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.227Z",
+                "updatedAt": "2023-04-06T10:04:17.227Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1303,
+              "attributes": {
+                "name": "Fish & Aquatic Pets",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.243Z",
+                "updatedAt": "2023-04-06T10:04:17.243Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1304,
+              "attributes": {
+                "name": "Birds",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.254Z",
+                "updatedAt": "2023-04-06T10:04:17.254Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1305,
+              "attributes": {
+                "name": "Small Animals",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.267Z",
+                "updatedAt": "2023-04-06T10:04:17.267Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "name": "Luggage & Travel",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.193Z",
+        "updatedAt": "2023-04-06T10:03:26.193Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 1401,
+              "attributes": {
+                "name": "Luggage & Travel Gear",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.276Z",
+                "updatedAt": "2023-04-06T10:04:17.276Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1402,
+              "attributes": {
+                "name": "Travel Accessories",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.289Z",
+                "updatedAt": "2023-04-06T10:04:17.289Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1403,
+              "attributes": {
+                "name": "Sports & Duffel Bags",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.299Z",
+                "updatedAt": "2023-04-06T10:04:17.299Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1404,
+              "attributes": {
+                "name": "Backpacks",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.310Z",
+                "updatedAt": "2023-04-06T10:04:17.310Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1405,
+              "attributes": {
+                "name": "Briefcases",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.317Z",
+                "updatedAt": "2023-04-06T10:04:17.317Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    },
+    {
+      "id": 15,
+      "attributes": {
+        "name": "Tools & Home Improvement",
+        "slug": null,
+        "prioty": null,
+        "featured": false,
+        "createdAt": "2023-04-06T10:03:26.200Z",
+        "updatedAt": "2023-04-06T10:03:26.200Z",
+        "locale": "en",
+        "image": {
+          "data": null
+        },
+        "cover_image": {
+          "data": null
+        },
+        "subcategories": {
+          "data": [
+            {
+              "id": 1501,
+              "attributes": {
+                "name": "Power & Hand Tools",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.325Z",
+                "updatedAt": "2023-04-06T10:04:17.325Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1502,
+              "attributes": {
+                "name": "Electrical",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.335Z",
+                "updatedAt": "2023-04-06T10:04:17.335Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1503,
+              "attributes": {
+                "name": "Hardware",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.343Z",
+                "updatedAt": "2023-04-06T10:04:17.343Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1504,
+              "attributes": {
+                "name": "Building Supplies",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.351Z",
+                "updatedAt": "2023-04-06T10:04:17.351Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            },
+            {
+              "id": 1505,
+              "attributes": {
+                "name": "Lighting & Ceiling Fans",
+                "slug": null,
+                "prioty": null,
+                "createdAt": "2023-04-06T10:04:17.357Z",
+                "updatedAt": "2023-04-06T10:04:17.357Z",
+                "locale": "en",
+                "is_brand": false
+              }
+            }
+          ]
+        },
+        "attribute_categories": {
+          "data": []
+        },
+        "localizations": {
+          "data": []
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 15
+    }
+  }
+}

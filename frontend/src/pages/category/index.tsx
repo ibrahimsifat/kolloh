@@ -17,4 +17,5 @@ const Category = () => {
     </ProSidebarProvider>
   );
 };
+
 export default Category;

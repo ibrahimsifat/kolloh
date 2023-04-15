@@ -30,9 +30,9 @@
       "target": "api::attribute-value.attribute-value",
       "mappedBy": "attribute"
     },
-    "subcategory": {
+    "subcategories": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::subcategory.subcategory",
       "inversedBy": "attributes"
     },

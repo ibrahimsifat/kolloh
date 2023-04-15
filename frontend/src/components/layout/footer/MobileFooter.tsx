@@ -1,9 +1,13 @@
+import CategoryDrawer from "@/components/Molecules/drawer/CategoryDrawer";
+import { SidebarContext } from "@/context/SidebarContext";
 import dynamic from "next/dynamic";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { FiAlignLeft, FiHome, FiShoppingCart } from "react-icons/fi";
 
 const MobileFooter = () => {
   const [modalOpen, setModalOpen] = useState(false);
+  const { toggleCategoryDrawer }: any = useContext(SidebarContext);
+  // const { toggleCartDrawer, toggleCategoryDrawer } = useContext(SidebarContext);
 
   return (
     <>
@@ -13,10 +17,11 @@ const MobileFooter = () => {
       <footer className="lg:hidden fixed z-30 bottom-0 bg-emerald-500 flex items-center justify-between w-full h-16 px-3 sm:px-10">
         <button
           aria-label="Bar"
-          // onClick={toggleCategoryDrawer}
+          onClick={toggleCategoryDrawer}
           className="flex items-center justify-center flex-shrink-0 h-auto relative focus:outline-none"
         >
           <span className="text-xl text-white">
+            <CategoryDrawer />
             <FiAlignLeft className="w-6 h-6 drop-shadow-xl" />
           </span>
         </button>

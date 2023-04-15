@@ -9,6 +9,8 @@ interface ButtonProps {
   hoverColor?: keyof typeof ColorsTypes;
   text?: keyof typeof ColorsTypes;
   rounded?: keyof typeof SizesTypes;
+  onClick?: (e: Event) => void;
+  isFullWidth?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -19,6 +21,7 @@ const Button: React.FC<ButtonProps> = ({
   hoverColor = "lightSecondary",
   text = "dark",
   rounded = "md",
+  isFullWidth,
 }) => {
   return (
     <button
@@ -29,6 +32,8 @@ const Button: React.FC<ButtonProps> = ({
       ${` text-${text} `}
       ${` rounded-${rounded} `}
       ${` hover:bg-${hoverColor} `}
+      ${isFullWidth && ` w-full `}
+     
        `}
       title={label}
     >
