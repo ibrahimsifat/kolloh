@@ -1,41 +1,48 @@
-import Link from "next/link";
-import React from "react";
-import { FiMail } from "react-icons/fi";
+import Error from "@/components/atoms/form/Error";
+import InputArea from "@/components/atoms/form/InputArea";
+import { FiLock, FiMail } from "react-icons/fi";
 
-//internal import
-import Error from "@component/form/Error";
-import InputArea from "@component/form/InputArea";
-import useLoginSubmit from "@hooks/useLoginSubmit";
+//internal  import
 
-const ResetPassword = ({ setShowResetPassword, setModalOpen }) => {
-  const { handleSubmit, submitHandler, register, errors, loading } =
-    useLoginSubmit(setModalOpen);
-
+const Login = ({
+  setModalOpen,
+  setShowResetPassword,
+}: {
+  setModalOpen: boolean;
+  setShowResetPassword: (x: boolean) => void;
+}) => {
   return (
     <>
       <div className="text-center mb-6">
-        <Link href="/" className="text-3xl font-bold font-serif">
-          Forget Password
-        </Link>
+        <h2 className="text-3xl font-bold font-serif">Login</h2>
         <p className="text-sm md:text-base text-gray-500 mt-2 mb-8 sm:mb-10">
-          Reset Your Password
+          Login with your email and password
         </p>
       </div>
-      <form
-        onSubmit={handleSubmit(submitHandler)}
-        className="flex flex-col justify-center"
-      >
+      <form className="flex flex-col justify-center">
         <div className="grid grid-cols-1 gap-5">
           <div className="form-group">
             <InputArea
-              register={register}
+              defaultValue="justin@gmail.com"
               label="Email"
-              name="verifyEmail"
+              name="registerEmail"
               type="email"
-              placeholder="Your Register Email"
+              placeholder="Email"
               Icon={FiMail}
             />
-            <Error errorName={errors.verifyEmail} />
+            <Error errorName={"error message"} />
+          </div>
+          <div className="form-group">
+            <InputArea
+              defaultValue="12345678"
+              label="Password"
+              name="password"
+              type="password"
+              placeholder="Password"
+              Icon={FiLock}
+            />
+
+            <Error errorName={"password error message"} />
           </div>
 
           <div className="flex items-center justify-between">
@@ -50,11 +57,10 @@ const ResetPassword = ({ setShowResetPassword, setModalOpen }) => {
             </div>
           </div>
           <button
-            disabled={loading}
             type="submit"
             className="w-full text-center py-3 rounded bg-emerald-500 text-white hover:bg-emerald-600 transition-all focus:outline-none my-1"
           >
-            Recover password
+            Login
           </button>
         </div>
       </form>
@@ -62,4 +68,4 @@ const ResetPassword = ({ setShowResetPassword, setModalOpen }) => {
   );
 };
 
-export default ResetPassword;
+export default Login;

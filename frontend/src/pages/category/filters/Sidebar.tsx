@@ -7,7 +7,6 @@ import {
   useProSidebar,
 } from "react-pro-sidebar";
 
-import Typography from "@/components/atoms/Text/Typography";
 import { getCategories } from "@/network/categories";
 import categories from "@/utils/data.json";
 import {
@@ -20,6 +19,7 @@ import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import CategoryListCard from "../../../components/Molecules/categoryList/CategoryListCard";
 import ColorsFilter from "./ColorsFIlter";
+import FilterProducts from "./FilterProducts";
 
 type Theme = "light" | "dark";
 
@@ -145,7 +145,7 @@ export const Playground = () => {
       </Sidebar>
 
       <main>
-        <div className="py-5 px-7 text-[#44596e]">
+        <div className="ltr:ml-7 rtl:mr-7 text-[#44596e]">
           <div className="mb-5">
             {broken && (
               <button
@@ -159,13 +159,7 @@ export const Playground = () => {
             )}
           </div>
           <div className="mb-14">
-            <Typography variant="h4" fontWeight={600}>
-              React Pro Sidebar
-            </Typography>
-            <Typography variant="body2">
-              React Pro Sidebar provides a set of components for creating high
-              level and customizable side navigation
-            </Typography>
+            <FilterProducts />
           </div>
         </div>
       </main>

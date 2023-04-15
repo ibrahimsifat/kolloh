@@ -15,7 +15,7 @@ const RelatedProducts = () => {
       <CardCarousel>
         {ctaCardData?.map((category, i) => (
           <SwiperSlide key={i + 1} className="group">
-            <ItemsCard category={category} />
+            <ItemsCard product={category} />
           </SwiperSlide>
         ))}
       </CardCarousel>

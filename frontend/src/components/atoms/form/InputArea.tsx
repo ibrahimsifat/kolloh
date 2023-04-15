@@ -1,4 +1,5 @@
 import React from "react";
+import { IconType } from "react-icons/lib";
 import Label from "./Label";
 interface InputAreaProps {
   register?: {};
@@ -7,7 +8,7 @@ interface InputAreaProps {
   label: string;
   type: string;
   placeholder?: string;
-  Icon?: string;
+  Icon?: IconType;
 }
 
 const InputArea: React.FC<InputAreaProps> = ({

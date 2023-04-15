@@ -3,9 +3,9 @@ import { AiFillHeart } from "react-icons/ai";
 import { ImLocation2 } from "react-icons/im";
 
 interface ItemsCardProps {
-  category: {};
+  product: {};
 }
-const ItemsCard: React.FC<ItemsCardProps> = ({ category }) => {
+const ItemsCard: React.FC<ItemsCardProps> = ({ product }) => {
   return (
     <div className="group rounded-md bg-white dark:bg-slate-900 shadow hover:shadow-xl dark:hover:shadow-xl dark:shadow-gray-800 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500">
       <div className="relative">

@@ -19,7 +19,7 @@ const Layout: React.FC<LayoutProps> = ({ title, description, children }) => {
       <ToastContainer />
       <div className="font-sans">
         <Head>
-          <html lang="en" className="light" />
+          <html lang="en" className="light" dir="ltr" />
           <title>
             {title
               ? `Kollsh | ${title}`

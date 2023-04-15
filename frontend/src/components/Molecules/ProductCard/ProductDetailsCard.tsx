@@ -6,7 +6,7 @@ import { MdAddIcCall } from "react-icons/md";
 import { SwiperSlide } from "swiper/react";
 import UserIntro from "../UserIntro/UserIntro";
 import ProductDetailsCarousel from "../carousel/ProductDetailsCarousel";
-const ProductCard = () => {
+const ProductDetailsCard = () => {
   return (
     <SectionContainer>
       <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
@@ -231,4 +231,4 @@ const ProductCard = () => {
     </SectionContainer>
   );
 };
-export default ProductCard;
+export default ProductDetailsCard;

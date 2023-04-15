@@ -1,14 +1,16 @@
-import { FiLock, FiMail, FiUser } from 'react-icons/fi';
+import Error from "@/components/atoms/form/Error";
+import InputArea from "@/components/atoms/form/InputArea";
+import { FiLock, FiMail, FiUser } from "react-icons/fi";
 
 //internal import
-import Error from '@component/form/Error';
-import InputArea from '@component/form/InputArea';
-import useLoginSubmit from '@hooks/useLoginSubmit';
 
-const Register = ({ setShowResetPassword, setModalOpen }) => {
-  const { handleSubmit, submitHandler, register, errors, loading } =
-    useLoginSubmit(setModalOpen);
-
+const Register = ({
+  setShowResetPassword,
+  setModalOpen,
+}: {
+  setModalOpen: true;
+  setShowResetPassword: (x: boolean) => void;
+}) => {
   return (
     <>
       <div className="text-center mb-6">
@@ -17,14 +19,10 @@ const Register = ({ setShowResetPassword, setModalOpen }) => {
           Create an account with email
         </p>
       </div>
-      <form
-        onSubmit={handleSubmit(submitHandler)}
-        className="flex flex-col justify-center"
-      >
+      <form className="flex flex-col justify-center">
         <div className="grid grid-cols-1 gap-5">
           <div className="form-group">
             <InputArea
-              register={register}
               label="Name"
               name="name"
               type="text"
@@ -32,23 +30,21 @@ const Register = ({ setShowResetPassword, setModalOpen }) => {
               Icon={FiUser}
             />
 
-            <Error errorName={errors.name} />
+            <Error errorName={"name error"} />
           </div>
 
           <div className="form-group">
             <InputArea
-              register={register}
               label="Email"
               name="email"
               type="email"
               placeholder="Email"
               Icon={FiMail}
             />
-            <Error errorName={errors.email} />
+            <Error errorName={"email error"} />
           </div>
           <div className="form-group">
             <InputArea
-              register={register}
               label="Password"
               name="password"
               type="password"
@@ -56,7 +52,7 @@ const Register = ({ setShowResetPassword, setModalOpen }) => {
               Icon={FiLock}
             />
 
-            <Error errorName={errors.password} />
+            <Error errorName={"password error"} />
           </div>
 
           <div className="flex items-center justify-between">
@@ -71,7 +67,6 @@ const Register = ({ setShowResetPassword, setModalOpen }) => {
             </div>
           </div>
           <button
-            disabled={loading}
             type="submit"
             className="w-full text-center py-3 rounded bg-emerald-500 text-white hover:bg-emerald-600 transition-all focus:outline-none my-1"
           >
