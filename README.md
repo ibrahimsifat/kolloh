@@ -12,6 +12,7 @@ pnpm dev
 ```
 
 Open frontend [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 Open backend [localhost:1337/admin/](localhost:1337/admin/) with your browser to see the result.
 
 You can start frontend editing the page by modifying `pages/index.tsx`.
